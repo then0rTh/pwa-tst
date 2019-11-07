@@ -25,7 +25,7 @@ self.addEventListener('fetch', (event) => {
 	event.respondWith(
 		caches.match(event.request).then((request) => {
 			console.log(`[Service Worker] Fetching resource: ${event.request.url}`);
-			if (reuqest)
+			if (request)
 				return request;
 			return fetch(event.request).then((response) => {
 				return caches.open(cacheName).then((cache) => {

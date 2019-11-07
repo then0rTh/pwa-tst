@@ -2,11 +2,11 @@
 
 const cacheName = 'pwa-tst-v1';
 const cacheFiles = [
-  './',
-  './index.html',
-  './main.js',
-  './main.css',
-  './icon.png',
+  '/pwa-tst/',
+  '/pwa-tst/index.html',
+  '/pwa-tst/main.js',
+  '/pwa-tst/main.css',
+  '/pwa-tst/icon.png',
 ];
 
 
